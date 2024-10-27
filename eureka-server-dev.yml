@@ -16,8 +16,7 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 5
-config:
-  import: http://config-server:8888
+
 management:
   endpoints:
     web:
